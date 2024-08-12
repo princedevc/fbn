@@ -71,8 +71,9 @@ footer{
     padding: 1% 1.5%;
   }
   .fbn-pod{
-    z-index: 3;
+    z-index: 1;
     top:0px;
+    margin-left: 5rem;
   }
   .keys{
     width: 5rem;
@@ -91,6 +92,7 @@ footer{
   .r-pod{
     margin-top: 5rem;
     margin-bottom: 5rem;
+    margin-left: 5rem;
   }
 
   .t-btn{
@@ -204,4 +206,19 @@ text-align: center;
 }
 .sec img{
   width: 20rem;
+}
+
+.first-monie{
+  display: flex;
+  margin: 5rem;
+  justify-content: center;
+}
+.first-monie img {
+  width:30rem;
+}
+.fm{
+  margin-right: 20rem;
+}
+.blog{
+  margin: 5rem;
 }
