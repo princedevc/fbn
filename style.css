@@ -49,9 +49,10 @@ footer{
   .pagination a:hover:not(.active) {background-color: #ddd;}
 
   .fbn-fam{
-    width: 1494px;
+    max-width: 1494px;
+    
     height: auto;
-    padding-left: 10px;
+    padding-left: 2rem;
   }
   .categories{
     text-emphasis-color: white;
@@ -107,8 +108,17 @@ footer{
   }
   .shutter{
     width: 4rem;
-    height: 3rem;
+    height: 10rem;
     margin-top: 1rem;
+  }
+  .row p {
+    width: 20rem;
+  }
+  .stock{
+    margin-bottom: 3rem;
+  }
+  .center{
+    margin: 3rem;
   }
 
 /*the footer*/
@@ -144,7 +154,8 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #e91e63;
+	/*background-color: #e91e63;*/
+  background-color: #ecba14;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -194,6 +205,9 @@ ul{
   .footer-col{
     width: 100%;
 }
+.fbn-fam{
+  width: 30rem
+}
 }
 
 .sec{
@@ -211,14 +225,24 @@ text-align: center;
 .first-monie{
   display: flex;
   margin: 5rem;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .first-monie img {
-  width:30rem;
+  width:20rem;
 }
-.fm{
-  margin-right: 20rem;
+.first-monie button {
+  background-color: rgb(216, 192, 13);
+    border:0;
+    padding: 1% 1.5%;
 }
+.first-monie p,h3{
+  width: 20rem;
+}
+.first-monie h3 {
+  text-align: center;
+}
+
 .blog{
   margin: 5rem;
 }
