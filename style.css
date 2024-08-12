@@ -193,3 +193,15 @@ ul{
     width: 100%;
 }
 }
+
+.sec{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5rem;
+}
+.sec p{
+text-align: center;
+}
+.sec img{
+  width: 20rem;
+}
